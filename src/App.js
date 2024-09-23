@@ -1,9 +1,13 @@
 import React from "react";
+import { Button } from "semantic-ui-react";
+import app from "./utils/firebase.js";
+import { getAuth } from "firebase/auth";
 
 export default function App() {
+  console.log("fire base", getAuth(app));
   return (
     <div>
-      <h1>Hola MusicApp</h1>
+      <Button primary>Primary</Button>
     </div>
   );
 }

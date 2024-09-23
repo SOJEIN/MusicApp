@@ -1,16 +1,18 @@
-# musicApp
+# MusicApp
 
 Una aplicación de música que permite a los usuarios explorar, reproducir y gestionar sus listas de reproducción. Este proyecto es parte del curso "Electron JS y React JS: Creando un Spotify" en Udemy.
 
 ## Descripción
 
-En este curso vas a aprender a crear una aplicación de escritorio tipo Spotify donde podrás subir artistas, álbumes y canciones. Después, podrás reproducir cualquier canción que tengas subida a la aplicación y controlar el estado de la reproducción y el volumen directamente desde la app.
+## Descripción
 
-Aprenderás a crear tu propio reproductor de música controlado con un Context y un Hooks personalizado creado desde cero. Crearemos la aplicación desde cero conectando React JS, Electron JS y Firebase.
+MusicApp es una aplicación de escritorio tipo Spotify que permite a los usuarios subir artistas, álbumes y canciones. Los usuarios pueden reproducir cualquier canción que tengan subida a la aplicación y controlar el estado de la reproducción y el volumen directamente desde la app.
 
-Al finalizar, aprenderás a crear el archivo .DMG para MacOS y el .EXE para Windows. Este curso tiene como objetivo enseñarte a desarrollar cualquier tipo de aplicación de escritorio con React y Electron desde cero.
+La aplicación incluye un reproductor de música personalizado, controlado mediante un Context y Hooks creados desde cero. Se desarrolla integrando React JS, Electron JS y Firebase.
 
-## Estructura del Curso
+Al finalizar, se podrán generar los archivos .DMG para MacOS y .EXE para Windows, lo que permite que la aplicación sea fácilmente distribuible. MusicApp está diseñada para desarrollar aplicaciones de escritorio con React y Electron desde cero.
+
+## Estructura del Proyecto
 
 - ¡La Biblioteca creada por Facebook! REACT JS
 - El Framework Electron JS para crear Apps de Escritorio
@@ -62,9 +64,11 @@ npm start
 
 o
 
-npm run start "Arrancara una version de escritorio"
+npm run electron-dev "Arrancara una version de escritorio"
+
+
+```
 
 ## Agradecimientos
 
 Gracias a Agustin Navarro Galdon por el curso "Electron JS y React JS: Creando un Spotify" en Udemy.
-```
