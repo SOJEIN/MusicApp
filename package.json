@@ -2,6 +2,9 @@
   "name": "musicapp",
   "version": "0.1.0",
   "private": true,
+  "main": "public/electron.js",
+  "type": "module",
+  "author": "Jeisson Ochoa",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -9,13 +12,21 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "sass": "^1.79.3",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "electron": "^32.0.2",
+    "electron-is-dev": "^3.0.1",
+    "wait-on": "^8.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron-dev": "concurrently \"wait-on http://localhost:3000 && electron .\" \"react-scripts start\""
   },
   "eslintConfig": {
     "extends": [
