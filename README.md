@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# musicApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación de música que permite a los usuarios explorar, reproducir y gestionar sus listas de reproducción. Este proyecto es parte del curso "Electron JS y React JS: Creando un Spotify" en Udemy.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+En este curso vas a aprender a crear una aplicación de escritorio tipo Spotify donde podrás subir artistas, álbumes y canciones. Después, podrás reproducir cualquier canción que tengas subida a la aplicación y controlar el estado de la reproducción y el volumen directamente desde la app.
 
-### `npm start`
+Aprenderás a crear tu propio reproductor de música controlado con un Context y un Hooks personalizado creado desde cero. Crearemos la aplicación desde cero conectando React JS, Electron JS y Firebase.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Al finalizar, aprenderás a crear el archivo .DMG para MacOS y el .EXE para Windows. Este curso tiene como objetivo enseñarte a desarrollar cualquier tipo de aplicación de escritorio con React y Electron desde cero.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estructura del Curso
 
-### `npm test`
+- ¡La Biblioteca creada por Facebook! REACT JS
+- El Framework Electron JS para crear Apps de Escritorio
+- Juntaremos React JS con Electron JS
+- Aprende a usar Firebase, Firestore y Storage
+- Añadiremos SASS al proyecto
+- Sistema de Login y Registro
+- Sistema de seguridad para verificar cuentas y recuperar cuentas
+- Sistema de permisos y roles
+- Enrutamiento con React Router Dom
+- Crearemos un reproductor de música personalizado
+- Subiremos música al servidor usando Drag & Drop
+- Subiremos imágenes al servidor usando Drag & Drop
+- Enlazaremos artistas con álbumes y canciones
+- Configuraremos la app para poder compilar
+- Crearemos el .dmg para instalar en sistemas operativos MacOS
+- Crearemos el .exe para poder instalar en sistemas operativos Windows
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Características
 
-### `npm run build`
+- Reproducción de música en tiempo real.
+- Creación y gestión de listas de reproducción.
+- Interfaz intuitiva y amigable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías Usadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- JavaScript
+- React
+- Electron
+- Firebase
+- SASS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalación
 
-### `npm run eject`
+Instrucciones para instalar el proyecto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clona el repositorio
+git clone https://github.com/SOJEIN/musicApp.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Entra en el directorio del proyecto
+cd musicApp
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Instala las dependencias
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Indicaciones para inicar la aplicacion
+npm start
 
-## Learn More
+o
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run start "Arrancara una version de escritorio"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Agradecimientos
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gracias a Agustin Navarro Galdon por el curso "Electron JS y React JS: Creando un Spotify" en Udemy.
+```
