@@ -4,8 +4,6 @@ Una aplicación de música que permite a los usuarios explorar, reproducir y ges
 
 ## Descripción
 
-## Descripción
-
 MusicApp es una aplicación de escritorio tipo Spotify que permite a los usuarios subir artistas, álbumes y canciones. Los usuarios pueden reproducir cualquier canción que tengan subida a la aplicación y controlar el estado de la reproducción y el volumen directamente desde la app.
 
 La aplicación incluye un reproductor de música personalizado, controlado mediante un Context y Hooks creados desde cero. Se desarrolla integrando React JS, Electron JS y Firebase.
