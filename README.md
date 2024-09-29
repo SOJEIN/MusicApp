@@ -1,6 +1,6 @@
 # MusicApp
 
-Una aplicación de música que permite a los usuarios explorar, reproducir y gestionar sus listas de reproducción. Este proyecto es parte del curso "Electron JS y React JS: Creando un Spotify" en Udemy.
+Una aplicación de música que permite a los usuarios explorar, reproducir y gestionar sus listas de reproducción. Este proyecto utiliza tecnolgias como "Electron JS y React JS".
 
 ## Descripción
 
@@ -8,7 +8,7 @@ MusicApp es una aplicación de escritorio tipo Spotify que permite a los usuario
 
 La aplicación incluye un reproductor de música personalizado, controlado mediante un Context y Hooks creados desde cero. Se desarrolla integrando React JS, Electron JS y Firebase.
 
-Al finalizar, se podrán generar los archivos .DMG para MacOS y .EXE para Windows, lo que permite que la aplicación sea fácilmente distribuible. MusicApp está diseñada para desarrollar aplicaciones de escritorio con React y Electron desde cero.
+Se podrán generar los archivos .DMG para MacOS y .EXE para Windows, lo que permite que la aplicación sea fácilmente distribuible. MusicApp está diseñada para desarrollar aplicaciones de escritorio con React y Electron.
 
 ## Estructura del Proyecto
 
@@ -27,6 +27,7 @@ Al finalizar, se podrán generar los archivos .DMG para MacOS y .EXE para Window
 - Enlazaremos artistas con álbumes y canciones
 - Creación de .dmg para instalar en sistemas operativos MacOS
 - Creacion de .exe para poder instalar en sistemas operativos Windows
+- Despliegue para la version web en git page
 
 ## Características
 
@@ -65,6 +66,10 @@ npm run electron-dev "Arrancara una version de escritorio"
 
 
 ```
+
+## Despliegue
+
+La aplicación está desplegada en GitHub Pages y puede ser accedida en:https://sojein.github.io/MusicApp/
 
 ## Agradecimientos
 
