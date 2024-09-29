@@ -1,6 +1,7 @@
 {
   "name": "musicapp",
   "version": "0.1.0",
+  "homepage": "https://sojein.github.io/MusicApp/",
   "private": true,
   "main": "public/electron.js",
   "type": "module",
@@ -19,12 +20,16 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^9.0.0",
     "electron": "^32.0.2",
     "electron-is-dev": "^3.0.1",
+    "gh-pages": "^6.1.1",
     "wait-on": "^8.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

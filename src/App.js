@@ -1,13 +1,27 @@
-import React from "react";
-import { Button } from "semantic-ui-react";
+import { useState, useEffect } from "react";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 import app from "./utils/firebase.js";
-import { getAuth } from "firebase/auth";
+import { LoggedNavigation } from "./routes/index.js";
 
 export default function App() {
-  console.log("fire base", getAuth(app));
-  return (
-    <div>
-      <Button primary>Primary</Button>
-    </div>
-  );
+  const [user, setUser] = useState(undefined);
+  const auth = getAuth();
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        console.log("Usuario logueado", user);
+        setUser(user);
+      } else {
+        console.log("No hay usuario logueado");
+        setUser(null);
+      }
+    });
+
+    return () => unsubscribe();
+  }, [auth]);
+
+  if (user === undefined) {
+    return user;
+  }
 }
