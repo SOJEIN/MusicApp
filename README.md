@@ -69,8 +69,5 @@ npm run electron-dev "Arrancara una version de escritorio"
 
 ## Despliegue
 
-La aplicación está desplegada en GitHub Pages y puede ser accedida en:https://sojein.github.io/MusicApp/
+La aplicación está desplegada en GitHub Pages y puede ser accedida en: https://sojein.github.io/MusicApp/
 
-## Agradecimientos
-
-Gracias a Agustin Navarro Galdon por el curso "Electron JS y React JS: Creando un Spotify" en Udemy.
