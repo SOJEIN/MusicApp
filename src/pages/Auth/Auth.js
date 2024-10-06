@@ -5,6 +5,8 @@ import {
   RegisterForm,
   AuthOptions,
 } from "../../components/Auth/index.js";
+import { logoNameGreen, logoNameWhite } from "../../assets/index.js";
+import { Image } from "semantic-ui-react";
 
 export function Auth() {
   const [typeForm, setTypeForm] = useState(null);
@@ -22,5 +24,18 @@ export function Auth() {
       return <AuthOptions openlogin={openlogin} openRegister={openRegister} />;
     }
   };
-  return <div>{renderForm()}</div>;
+
+  return (
+    <div className="auth">
+      <div className="auth_content">
+        <Image
+          src={logoNameWhite}
+          alt="MusicApp"
+          className="auth_content-logo"
+        />
+
+        {renderForm()}
+      </div>
+    </div>
+  );
 }
